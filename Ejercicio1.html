@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <h4>Funcion con Javascript para detectar el dia de hoy</h4>
+    <p>El dia de hoy es </p>
+    <p id="demo"></p>
+    <body>
+        <script>
+            var semana = ['Domingo','Lunes','Martes','Miercoles','Jueves','Viernes','Sabado'];
+            var dia = new Date();
+            var hoy = semana[dia.getDay()];
+            document.getElementById("demo").innerHTML = hoy;
+    </script>
+    </body>
+</html>
